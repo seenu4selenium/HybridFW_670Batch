@@ -11,9 +11,11 @@ import org.testng.annotations.Test;
 import com.objectrepository.Locators;
 
 public class FB_Login {
-
+	WebDriver driver;
+	
 	// Here will define the object for Locators class
 	Locators loc = new Locators();
+	
 
 	@Test
 	public void f() throws Exception {
@@ -25,7 +27,7 @@ public class FB_Login {
 		// Load the test data to property file variable
 		prop.load(fi);
 
-		WebDriver driver;
+		
 		driver = new ChromeDriver();
 		driver.manage().window().maximize();
 
