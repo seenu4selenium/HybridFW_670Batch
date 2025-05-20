@@ -26,6 +26,8 @@ public class Locators {
 	public final By nrg_create_button = By.id("fbclc_createAccountButton");
 	public final By nrg_page_accept = By.id("cookie-acknowledge");
 
+	public final By AESearch_Searchpdct_editbox=By.xpath("//*[@id='search_product']");
+	public final By AESearch_Search_button=By.xpath("//*[@id=\"submit_search\"]");
 	
 
 }
