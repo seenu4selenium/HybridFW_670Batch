@@ -25,7 +25,12 @@ public class Locators {
 	public final By nrg_career_checkbox = By.id("fbclc_campaignEmailEnabled");
 	public final By nrg_create_button = By.id("fbclc_createAccountButton");
 	public final By nrg_page_accept = By.id("cookie-acknowledge");
-
+	
+	//AE
+public final By AE_signup_click = By.xpath("//a[text()=\" Signup / Login\"]");
+public final By AE_Name_Enter = By.xpath("//input[@type='text']");
+public final By AE_EmailAddress = By.xpath("//*[@data-qa='signup-email']");
+public final By AE_Signup = By.xpath("//*[@data-qa='signup-button']");
 	
 
 }
