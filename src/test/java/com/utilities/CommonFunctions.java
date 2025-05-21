@@ -1,6 +1,7 @@
 package com.utilities;
 
 import java.io.FileInputStream;
+import java.io.FileNotFoundException;
 import java.io.IOException;
 import java.util.Properties;
 
@@ -344,14 +345,19 @@ public class CommonFunctions {
 
 	}
 
-	/****************** Dropdown selection **************************************/
+	/****************** Dropdown selection 
+	 * @throws IOException **************************************/
 
-	public void selectByVisibleText(By locater, String visibleText) {
+	public void selectByVisibleText(By locater, String visibleText) throws IOException {
+		fi = new FileInputStream(".\\src\\test\\resources\\testdata\\" + propertyFile);
+		p.load(fi);
+
+		
 		WebElement element = driver.findElement(locater);
 		if (driver.findElements(locater).size() > 0) {
 			if (element.isEnabled()) {
 				Select dropdown = new Select(element);
-				dropdown.selectByVisibleText(visibleText);
+				dropdown.selectByVisibleText(p.getProperty(visibleText));
 			} else {
 				System.out.println("The webelement is NOT Enabled, please check**************");
 			}
