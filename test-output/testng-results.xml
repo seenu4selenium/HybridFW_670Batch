@@ -1,17 +1,61 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-05-20T20:07:26 MDT" name="Default suite" finished-at="2025-05-20T20:10:22 MDT" duration-ms="175688">
+  <suite started-at="2025-05-27T20:15:43 MDT" name="Default suite" finished-at="2025-05-27T20:17:48 MDT" duration-ms="125536">
     <groups>
     </groups>
-    <test started-at="2025-05-20T20:07:26 MDT" name="Default test" finished-at="2025-05-20T20:10:22 MDT" duration-ms="175688">
-      <class name="com.testscenarios.Automationexercise_Login">
-        <test-method signature="f()[pri:0, instance:com.testscenarios.Automationexercise_Login@247bddad]" started-at="2025-05-20T20:07:27 MDT" name="f" finished-at="2025-05-20T20:10:22 MDT" duration-ms="175363" status="PASS">
+    <test started-at="2025-05-27T20:15:43 MDT" name="Default test" finished-at="2025-05-27T20:17:48 MDT" duration-ms="125536">
+      <class name="com.testscenarios.RetestingWithDataProviderDemo">
+        <test-method signature="f(java.lang.String,java.lang.String)[pri:0, instance:com.testscenarios.RetestingWithDataProviderDemo@7dc0f706]" started-at="2025-05-27T20:15:43 MDT" name="f" data-provider="abc" finished-at="2025-05-27T20:16:14 MDT" duration-ms="31364" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Himawetgsdfsfs@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[hima23124]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- f -->
-      </class> <!-- com.testscenarios.Automationexercise_Login -->
+        <test-method signature="f(java.lang.String,java.lang.String)[pri:0, instance:com.testscenarios.RetestingWithDataProviderDemo@7dc0f706]" started-at="2025-05-27T20:16:14 MDT" name="f" data-provider="abc" finished-at="2025-05-27T20:16:47 MDT" duration-ms="32472" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ytest1@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[ytest1@]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f -->
+        <test-method signature="f(java.lang.String,java.lang.String)[pri:0, instance:com.testscenarios.RetestingWithDataProviderDemo@7dc0f706]" started-at="2025-05-27T20:16:47 MDT" name="f" data-provider="abc" finished-at="2025-05-27T20:17:48 MDT" duration-ms="61442" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ytest1456y746@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[ytest135465465@]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f -->
+      </class> <!-- com.testscenarios.RetestingWithDataProviderDemo -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
