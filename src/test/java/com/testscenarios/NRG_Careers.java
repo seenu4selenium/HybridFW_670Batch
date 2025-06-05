@@ -13,6 +13,7 @@ public class NRG_Careers extends CommonFunctions {
 	@Test
 	public void f() throws Exception {
 		firefoxBrowserLaunch();
+		//chromeBrowserLaunch();
 		getURL("nrg_URL");
 		Thread.sleep(5000);
 		clickByAnyLocator(loc.nrg_page_accept);
