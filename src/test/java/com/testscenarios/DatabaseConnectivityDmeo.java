@@ -20,7 +20,8 @@ public class DatabaseConnectivityDmeo {
 		String db_password = "admin@123";
 
 		Class.forName("com.mysql.cj.jdbc.Driver");
-
+		//Class.forName("com.ibm.db2.jcc.DB2Driver");
+		
 		// Connection
 		Connection cnn = DriverManager.getConnection(db_Url, db_username, db_password);
 
