@@ -8,6 +8,7 @@ public class Locators {
 	// public final By pagename_ElementName_elementType = By.name("Sdgffdgd");
 	public final By fbLogin_ForgotPassword_Link = By.linkText("Forgot password?");
 	public final By fbLogin_Email_editBox = By.name("email");
+	public final By fbLogin_password_editBox = By.name("pass");
 	public final By fbLogin_login_button = By.name("login");
 
 	// automationexercise

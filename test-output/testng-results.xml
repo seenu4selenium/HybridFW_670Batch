@@ -2,16 +2,16 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-05-14T20:11:29 MDT" name="Default suite" finished-at="2025-05-14T20:12:53 MDT" duration-ms="83973">
+  <suite started-at="2025-06-12T20:24:40 MDT" name="Default suite" finished-at="2025-06-12T20:25:01 MDT" duration-ms="20715">
     <groups>
     </groups>
-    <test started-at="2025-05-14T20:11:29 MDT" name="Default test" finished-at="2025-05-14T20:12:53 MDT" duration-ms="83973">
-      <class name="com.testscenarios.NRG_Careers">
-        <test-method signature="f()[pri:0, instance:com.testscenarios.NRG_Careers@192c3f1e]" started-at="2025-05-14T20:11:29 MDT" name="f" finished-at="2025-05-14T20:12:53 MDT" duration-ms="83931" status="PASS">
+    <test started-at="2025-06-12T20:24:40 MDT" name="Default test" finished-at="2025-06-12T20:25:01 MDT" duration-ms="20715">
+      <class name="com.testscenarios.Fblogin">
+        <test-method signature="f()[pri:0, instance:com.testscenarios.Fblogin@2e377400]" started-at="2025-06-12T20:24:40 MDT" name="f" finished-at="2025-06-12T20:25:01 MDT" duration-ms="20641" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- f -->
-      </class> <!-- com.testscenarios.NRG_Careers -->
+      </class> <!-- com.testscenarios.Fblogin -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
