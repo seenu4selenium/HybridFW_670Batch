@@ -539,6 +539,7 @@ public class CommonFunctions {
 		int numberOfFrames = 0;
 		numberOfFrames = Integer.parseInt(exe.executeScript("return window.length").toString());
 		System.out.println("Number of iframes on the page are: " + numberOfFrames);
+		                  //Number of iframes on the page are: 3
 		return numberOfFrames;
 	}
 
@@ -555,12 +556,11 @@ public class CommonFunctions {
 		// if given locater has present on webpage, then the element size would be '1'
 		// else '0'
 		elementpresenceCount = driver.findElements(locator).size();// 0
-		while (elementpresenceCount == 0 && loop < maxFramecount) {
+		while (elementpresenceCount == 0 && loop < maxFramecount) {//3<3
 			try {
 				switchToFrameByInt(loop);
 				elementpresenceCount = driver.findElements(locator).size();// 0
-				System.out.println("Try LoopAllframesAndReturnWebEL : " + loop + "; ElementpresenceCount: "
-						+ elementpresenceCount);
+				System.out.println("Try LoopAllframesAndReturnWebEL : " + loop + "; ElementpresenceCount: "	+ elementpresenceCount);
 				if (elementpresenceCount > 0 || loop > maxFramecount) {
 					break;
 				}
